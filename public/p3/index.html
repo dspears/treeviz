@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/d3/d3.js"></script>
+    <script type="text/javascript" src="../js/d3-zgrid.js"></script>
+    <style type="text/css">
+
+        .chart {
+            display: block;
+            margin: auto;
+            margin-top: 0px;
+        }
+
+        text {
+            font-size: 11px;
+        }
+
+        #search {
+            text-align: center;
+            width: 470px;
+            margin: 0;
+            position: absolute;
+            text-align: center;
+            top: 15px;
+            left: 30px;
+
+        }
+        #Xsearch .input-group {
+            text-align: center;
+        }
+        #Xsearchstring {
+            width: 300px;
+        }
+
+        p {
+            margin: 4px;
+        }
+
+        rect {
+            /*fill: none;*/
+        }
+
+
+        #search p {
+            font-family: Arial;
+            font-size: 32px;
+        }
+        #go {
+            outline: none;
+        }
+
+        .gnode {
+            opacity: 0.4;
+        }
+
+    </style>
+</head>
+<body>
+<div id="body">
+    <form id="search" class="text-center" action="#search" method="get">
+        <!--p>Welcome to the Web you've always known, but could never see.  Until now.</p-->
+        <!--p>Welcome to the Web you've never seen before.  Search.  Explore.  Discover.</p-->
+        <!--p>Search.  Explore.  Discover.</p-->
+        <div class="input-group">
+          <input id="searchstring" class="form-control" type="search" name="q" size="35" autofocus>
+          <span class="input-group-btn">
+            <button class="btn btn-primary" id="go">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="treemap2.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "d3-grid",
+  "homepage": "https://github.com/interactivethings/d3-grid",
+  "version": "0.1.1",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "6d62011ebfdd73575dd697ce934fdf3b8c8caf52"
+  },
+  "_source": "https://github.com/interactivethings/d3-grid.git",
+  "_target": "~0.1.1",
+  "_originalSource": "d3-grid",
+  "_direct": true
+}

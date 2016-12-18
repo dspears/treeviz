@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!-- 21st thus 2:30 ->
+<!-- 7:30/8:30 Oct 8th -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/d3/d3.js"></script>
+    <style type="text/css">
+
+        .chart {
+            display: block;
+            margin: auto;
+            margin-top: 0px;
+        }
+
+        text {
+            font-size: 11px;
+        }
+
+        #search {
+            text-align: center;
+            width: 490px;
+            margin: 18px auto;
+        }
+        #Xsearch .input-group {
+            text-align: center;
+        }
+        #Xsearchstring {
+            width: 300px;
+        }
+
+        p {
+            margin: 4px;
+        }
+
+        rect {
+            /*fill: none;*/
+        }
+
+
+        #search p {
+            font-family: Arial;
+            font-size: 32px;
+        }
+        #go {
+            outline: none;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="body">
+    <form id="search" class="text-center" action="#search" method="get">
+        <!--p>Welcome to the Web you've always known, but could never see.  Until now.</p-->
+        <!--p>Welcome to the Web you've never seen before.  Search.  Explore.  Discover.</p-->
+        <p>Search.  Explore.  Discover.</p>
+        <div class="input-group">
+          <input id="searchstring" class="form-control" type="search" name="q" size="35" autofocus>
+          <span class="input-group-btn">
+            <button class="btn btn-primary" id="go">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+    </form>
+    <div id="footer">
+        <div class="hint">click or option-click to descend or ascend</div>
+        <div><select>
+            <option value="size">Size</option>
+            <option value="count">Count</option>
+        </select></div>
+    </div>
+</div>
+<script type="text/javascript" src="treemap2.js"></script>
+</body>
+</html>
